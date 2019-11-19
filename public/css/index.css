@@ -192,7 +192,8 @@ nav {
 #hero {
   width: 100%;
   height: 46vw;
-  background-repeat: repeat;
+  background-image: url('https://raw.githubusercontent.com/andrewzhen/asgs-webmaster/master/public/images/yosemitevalley.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
