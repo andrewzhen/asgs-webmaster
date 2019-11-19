@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Static web page challenge">
+    <meta name="keywords" content="UCSD, AS Graphic Studio, Webmaster, Challenge, HTML, CSS, JavaScript">
+    <meta name="author" content="Andrew Zhen">
+
+    <meta property="og:image" content="images/yosemitevalley.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+
+    <title>Webmaster Challenge | A.S. Graphic Studio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- IE -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <!-- Other browsers -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <script src="script/jquery.js"></script>
+    <script src="script/fadein.js"></script>
+  </head>
+
+  <body>
+    <nav class="links upper-case">
+      <p class="float-left" id="logo"><a href="">Lorem Ipsum</a></p>
+      <div class="float-right">
+        <ul>
+          <li><a class="activeTab" href="" id="home">Home</a></li>
+          <li><a href="" id="about">About</a></li>
+          <li><a href="" id="contact">Contact</a></li>
+          <li><a href="" id="work">Work</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </nav>
+
+    <main>
+      <div class="spacer4" id="hero" style="background-image: url('images/yosemitevalley.jpg');">
+        <section id="hero-title-container">
+          <h1 id="hero-title">Lorem Ipsum</h1>
+        </section>
+      </div>
+      <article>
+        <div class="spacer4" id="intro">
+          <section>
+            <h2 class="spacer3" id="blurb-header">
+              Sed volutpat, risus id ultricies blandit, arcu elit consectetur 
+              tellus, laoreet ornare purus nulla in ipsum ac augue vitae turpis.
+            </h2>
+          </section>
+          <div>
+            <p id="blurb">
+              Mauris vel nisl ante. Vivamus sagittis ullamcorper quam, sit amet 
+              tincidunt enim sollicitudin ut. Vestibulum at elementum leo. 
+              Aliquam erat volutpat. Nullam magna orci, accumsan at arcu 
+              lobortis, volutpat cursus nisl. Suspendisse metus purus, 
+              gravida vehicula eros in, malesuada posuere magna.
+            </p>
+          </div>
+        </div>
+
+        <div class="gallery">
+            <img 
+              class="left-img gallery-img" 
+              id="highSierra" 
+              src="images/highsierra.jpg" 
+              loading="lazy" 
+              alt="MacOS High Sierra wallpaper" 
+              title="High Sierra"
+            >
+            <img 
+              class="left-img gallery-img" 
+              id="elCapitan" 
+              src="images/elcapitan.jpg" 
+              loading="lazy" 
+              alt="MacOS El Capitan wallpaper" 
+              title="El Capitan"
+            >
+            <img 
+              class="gallery-img" 
+              id="mojave" 
+              src="images/mojave.jpg" 
+              loading="lazy" 
+              alt="MacOS Mojave wallpaper" 
+              title="Mojave"
+            >
+        </div>
+
+        <div class="flex-container-outer">
+          <div class="flex-container-inner">
+            <div class="left-txt spacer3">
+              <section>
+                <h3>Yosemite</h3>
+              </section>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse varius eu metus et scelerisque. Nullam gravida eu 
+                elit at rutrum. Aliquam sit amet sollicitudin est. Suspendisse 
+                potenti. Donec porttitor tempor pulvinar. Sed congue elementum 
+                placerat. Maecenas nec rhoncus est.
+              </p>
+            </div>
+
+            <div class="spacer3">
+              <section>
+                <h3>El Capitan</h3>
+              </section>
+              <p>Mauris vel nisl ante. Vivamus sagittis ullamcorper quam, sit amet 
+                tincidunt enim sollicitudin ut. Vestibulum at elementum leo. 
+                Aliquam erat volutpat. Nullam magna orci, accumsan at arcu 
+                lobortis, volutpat cursus nisl. Suspendisse metus purus, gravida 
+                vehicula eros in, malesuada posuere magna.
+              </p>
+            </div>
+
+            <div class="left-txt">
+              <section>
+                <h3>High Sierra</h3>
+              </section>
+              <p>Nulla ac dolor nibh. Vestibulum feugiat convallis posuere. 
+                Pellentesque vestibulum eleifend turpis vel consequat. Cras tempor 
+                turpis in nunc finibus sollicitudin. Morbi malesuada sodales urna, 
+                quis pulvinar nunc interdum ultrices. Nullam id risus velit. Ut 
+                fringilla eleifend mollis. Phasellus in dui tellus. Nam euismod 
+                mattis quam porttitor ornare.
+              </p>
+            </div>
+
+            <div id="last">
+              <section>
+                <h3>Mojave</h3>
+              </section>
+              <p>Integer tempor enim lacus, sit amet dapibus diam elementum et. 
+                Pellentesque congue libero id enim dignissim consequat. Fusce et 
+                sagittis magna, in feugiat felis. Sed volutpat, risus id ultricies 
+                blandit, arcu elit consectetur tellus, laoreet ornare purus nulla 
+                in ipsum. Praesent ac augue vitae turpis ullamcorper hendrerit 
+                eleifend in odio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="links upper-case">
+      <p class="float-left" id="asgs">
+        Made with 
+        <span id="heart">♡</span> 
+        by A.S. Graphic Studio
+      </p>
+      <div class="float-right">
+        <ul>
+          <li><a href="mailto:asgraphicstudio@ucsd.edu">Email</a></li>
+          <li><a href="">Resume</a></li>
+          <li><a href="https://www.facebook.com/asgraphicstudio/">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/company/asgraphicstudio/about/">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </footer>
+  </body>
+</html>
